@@ -6,9 +6,19 @@ export const HeaderWrapper = styled.div`
    height: 56px;
    border-bottom: 1px solid #f0f0f0;
 `;
-export const Logo = styled.a.attrs({
-	href: '/'
-})`
+// export const Logo = styled.a.attrs({
+// 	href: '/'
+// })`
+//    position: absolute;
+//    top: 0;
+//    left: 0;
+//    display: block;
+//    width: 100px;
+//    height: 56px;
+//    background: url(${logoPic});
+//    background-size: contain;
+// `;
+export const Logo = styled.div`
    position: absolute;
    top: 0;
    left: 0;
@@ -103,6 +113,7 @@ export const SearchInfo = styled.div`
 	left: 0;
 	top: 56px;
 	width: 240px;
+	/* height: 150px; */
 	padding: 0 20px;
 	box-shadow: 0 0 8px rgba(0, 0, 0, .2);
 	background: #fff;
@@ -162,7 +173,7 @@ export const Button = styled.div`
 	line-height: 38px;
 	border-radius: 19px;
 	border: 1px solid #ec6149;
-	font-siz: 14px;
+	font-size: 14px;
 	&.reg {
 		color: #ec6149;
 	}
